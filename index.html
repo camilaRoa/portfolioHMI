@@ -20,12 +20,13 @@
                 personas que los están necesitando.</p>
         </div>
         <!-- Descripción -->
-        <div class="mx-4 md:mx-8 lg:mx-12">
+        <div class="mx-4 md:mx-8 flex flex-col gap-4 lg:mx-12">
 
             <div class="flex flex-col gap-6">
-                <div class="w-full flex items-center">
-                    <h2 class="whitespace-nowrap text-medium text-2xl">Descripción general</h2>
-                    <div class="w-full h-0 border-b border-lime-600 m-2"></div>
+                <div class="w-full my-6 flex items-center justify-center">
+                    <div class="w-44 h-0 border-b-2 border-lime-200 m-2"></div>
+                    <h3 class="whitespace-nowrap text-medium text-3xl text-lime-700 mx-6">Descripción general</h3>
+                    <div class="w-44 h-0 border-b-2 border-lime-200 m-2"></div>
                 </div>
                 <div class="m-6">
                     <p class="text-lime-600 mb-4 text-2xl">Second hand es una aplicación movil diseñada para ayudar a
@@ -40,6 +41,11 @@
                 </div>
             </div>
             <!-- Cuatro W -->
+            <div class="w-full my-6 flex items-center justify-center">
+                <div class="w-44 h-0 border-b-2 border-lime-200 m-2"></div>
+                <h3 class="whitespace-nowrap text-medium text-3xl text-lime-700 mx-6">Planteación del problema</h3>
+                <div class="w-44 h-0 border-b-2 border-lime-200 m-2"></div>
+            </div>
             <div>
                 <div class="w-full flex items-center pb-4">
                     <h2 class="whitespace-nowrap text-medium text-2xl">4 W's</h2>
@@ -122,7 +128,7 @@
                             <p>Edad: 21 años</p>
                             <p>Rol: Estudiante de Ing. Civil.</p>
                         </div>
-                        <div>
+                        <div class="mt-auto">
                             <p class="font-semibold">Metas:</p>
                             <ul class="pl-6 marker:text-lime-600 list-outside list-disc">
                                 <li>Obtener artículos de segunda mano</li>
@@ -134,7 +140,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="h-0 md:h-40 w-10/12 md:w-0 border-b md:border-r border-lime-600  my-3 md:my-auto mx-auto"></div>
+                    <div
+                        class="h-0 md:h-40 w-10/12 md:w-0 border-b md:border-r border-lime-600  my-3 md:my-auto mx-auto">
+                    </div>
                     <div class="flex flex-col">
                         <div class="rounded-full h-20 w-20 bg-lime-200 mx-auto">picture</div>
                         <div class="text-center mx-auto">
@@ -142,7 +150,7 @@
                             <p>Edad: 20 años</p>
                             <p>Rol: Estudiante de Ing. Electromecánica.</p>
                         </div>
-                        <div>
+                        <div class="mt-auto">
                             <p class="font-semibold">Metas:</p>
                             <ul class="pl-6 marker:text-lime-600 list-outside list-disc">
                                 <li>Obtener artículos de segunda mano</li>
@@ -154,7 +162,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="h-0 md:h-40 w-10/12 md:w-0 border-b md:border-r border-lime-600 my-3 md:my-auto mx-auto"></div>
+                    <div
+                        class="h-0 md:h-40 w-10/12 md:w-0 border-b md:border-r border-lime-600 my-3 md:my-auto mx-auto">
+                    </div>
                     <div class="flex flex-col">
                         <div class="rounded-full h-20 w-20 bg-lime-200 mx-auto">picture</div>
                         <div class="text-center mx-auto">
@@ -162,7 +172,7 @@
                             <p>Edad: 35 años</p>
                             <p>Rol: Funcionaria de empresa privada.</p>
                         </div>
-                        <div>
+                        <div class="mt-auto">
                             <p class="font-semibold">Metas:</p>
                             <ul class="pl-6 marker:text-lime-600 list-outside list-disc">
                                 <li>Ayudar a las personas que necesiten.</li>
@@ -185,23 +195,108 @@
                 </div>
                 <div class="flex flex-col">
                     <div class="rounded-xl md:ml-8 mb-3 md:mb-4 p-6 bg-lime-200">
-                        Como estudiante que tiene pocos ingresos quiero obtener artículos sin necesidad de pagar por ellos para ahorrar dinero.
+                        Como estudiante que tiene pocos ingresos quiero obtener artículos sin necesidad de pagar por
+                        ellos para ahorrar dinero.
                     </div>
                     <div class="rounded-xl md:mr-8 mb-3 md:mb-4 p-6 bg-lime-200">
                         Como ama de casa quiero deshacerme de ciertos artículos para tener más espacio en mi hogar.
                     </div>
                     <div class="rounded-xl md:ml-8 mb-3 md:mb-4 p-6 bg-lime-200">
-                        Como estudiante que aún no trabaja quiero conseguir artículos de segunda mano para así no gastar dinero.
+                        Como estudiante que aún no trabaja quiero conseguir artículos de segunda mano para así no gastar
+                        dinero.
                     </div>
                     <div class="rounded-xl md:mr-8 mb-3 md:mb-4 p-6 bg-lime-200">
-                        Como soy una persona preocupada por el medio ambiente quiero reducir los desechos para ayudar al medio ambiente.
+                        Como soy una persona preocupada por el medio ambiente quiero reducir los desechos para ayudar al
+                        medio ambiente.
                     </div>
                 </div>
             </div>
 
             <!-- Arquitectura de la información -->
+            <div>
+                <div class="w-full flex items-center pb-4">
+                    <h2 class="whitespace-nowrap text-medium text-2xl">Arquitectura de la información</h2>
+                    <div class="w-full h-0 border-b border-lime-600 m-2"></div>
+                </div>
+                <div class="p-6">
+                    <p class="mb-6">
+                        Utilizamos la arquitectura de la información para organizar y estructurar la información de
+                        manera
+                        clara y
+                        coherente dentro de un producto digital.
+                    </p>
+                    <p>IMAGEN</p>
+                </div>
+            </div>
+
+            <div class="w-full my-6 flex items-center justify-center">
+                <div class="w-44 h-0 border-b-2 border-lime-200 m-2"></div>
+                <h3 class="whitespace-nowrap text-medium text-3xl text-lime-700 mx-6">Comprendiendo al usuario</h3>
+                <div class="w-44 h-0 border-b-2 border-lime-200 m-2"></div>
+            </div>
+
+            <div class="flex mx-auto flex-col items-center">
+                <p>
+                    <strong class="text-lime-700">123</strong>
+                    usuarios encuestados
+                </p>
+                <p>
+                    <strong class="text-lime-700">10</strong>
+                    preguntas
+                </p>
+                <p>
+                    <strong class="text-lime-700">5</strong>
+                    entrevistas
+                </p>
+            </div>
 
             <!-- Encuestas en linea -->
+            <div>
+                <div class="w-full flex items-center pb-4">
+                    <h2 class="whitespace-nowrap text-medium text-2xl">Encuestas</h2>
+                    <div class="w-full h-0 border-b border-lime-600 m-2"></div>
+                </div>
+                <div class="p-6">
+                    <p class="mb-6">
+                        Se realizo una encuesta para comprender mejor el comportamiento de los posibles usuarios. De
+                        todas las personas encuestadas, el 70% tenia 20 años o menos, el 26% tenían entre 21 y 30 años,
+                        y el resto mayor a 40 años. Estas edades parecían ser una muestra bastante representativa de la
+                        base de los posibles usuarios. La encuesta hizo preguntas a los encuestados sobre sus hábitos de
+                        donación.
+                    </p>
+                    <div class="flex flex-col md:flex-row gap-4">
+                        <div class="flex flex-col items-center">
+                            <p class="mx-auto text-center">IMAGEN</p>
+                            <strong>89,4 %</strong>
+                            <p class="text-center">De los encuestados han querido donar alguna vez.</p>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <p class="mx-auto text-center">IMAGEN</p>
+                            <strong>61,8 %</strong>
+                            <p class="text-center">De los encuestados están dispuestos a utilizar artículos donados.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Entrevistas -->
+            <div>
+                <div class="w-full flex items-center pb-4">
+                    <h2 class="whitespace-nowrap text-medium text-2xl">Entrevistas</h2>
+                    <div class="w-full h-0 border-b border-lime-600 m-2"></div>
+                </div>
+                <div class="p-6">
+                    <p class="m-6">
+                        <p>A todos los entrevistados les ha pasado alguna vez que objetos que ya no necesitaban ocupaban
+                        lugar en sus casas. Y han llegado a tener intención de donar o desapegarse de algún objeto
+                        material.</p>
+                        <p>Los objetos son muy variados, de muchos tipos de categorías, tamaños y utilidades.</p>
+                        <p>Generalmente las personas no saben dónde ubicar estos objetos, o
+                        donde buscar posibles destinatarios, y no tienen el deseo de invertir demasiado tiempo en la
+                        búsqueda. Estos objetos suelen terminar en manos de parientes o personas cercanas.</p>
+                    </p>
+                </div>
+            </div>
 
             <!-- Journey Maps -->
 
